@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+
+/*
+    em HMTL é id = em CSS é #
+    em HTML é class = em CSS é .
+    as configurações de id sobprõem a class
+*/
+body{
+    background-color: #d6fde9;
+}
+h1{
+    color: #1e402f;
+}
+h1#principal{
+    text-align: center;
+    background-color: #3c805e;
+    color: white;
+}
+h2{
+    color: #3c805e;
+}
+.basico{
+    background-color: #4c803cb6;
+}
+.intermediario{
+    background-color: #77803cb4;
+}
+.avancado{
+    background-color: #803c3c9d;
+}
+.destaque{
+        background-color: #1e402f8c;
+}

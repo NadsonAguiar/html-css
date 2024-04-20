@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo da Pseudo-Class Hover</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+            text-align: center;
+            background-color: rgba(43, 148, 142, 0.578);
+            color: white;
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        div:hover{
+            color: lightseagreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Inicio do Exemplo</h1>
+    <p>Passe o mouse no texto abaixo</p>
+    <div>Passe o mouse aqui
+        <p>Deus te ama</p>
+
+    </div>
+    <p>Fim do Exemplo</p>
+</body>
+</html>
